@@ -15,9 +15,9 @@ function compute()
         document.getElementById("principal").focus();
     }else
     {
-      var impr= "<br/><br/>If you deposit "+"<mark>"+document.getElementById("principal").value+"</mark>," +
-      "<br/>at an interest rate of "+"<mark>"+document.getElementById("rate").value+"%</mark>." +
-      "<br/>You will receive an amount of "+"<mark>"+ interest+"</mark>," +
+      var impr= "<br/><br/>If you deposit "+"<mark>"+document.getElementById("principal").value+"</mark>" +
+      "<br/>at an interest rate of "+"<mark>"+document.getElementById("rate").value+"%</mark>," +
+      "<br/>you will receive an amount of "+"<mark>"+ interest+"</mark>" +
       "<br/>in the year "+"<mark>"+ year+"</mark>";
       
 			document.getElementById("result").innerHTML=impr;
